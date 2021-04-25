@@ -1,0 +1,18 @@
+package oopIntro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String[] products = {
+				"Lenovo V14",
+				"Lenovo V15",
+				"Hp 5"
+		};
+		
+		int[] unitsInStock = {
+				3,4,5
+		};
+		
+	}
+
+}

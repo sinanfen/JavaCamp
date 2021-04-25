@@ -1,0 +1,18 @@
+package oopIntro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Product product1 = new Product();
+		product1.id = 1;
+		product1.name = "Lenovo V14";
+		product1.unitPrice = 11000;
+		product1.detail = "16GB RAM ";
+		
+		Product[] products = {};
+		
+		System.out.println(products.length);
+	}
+
+}

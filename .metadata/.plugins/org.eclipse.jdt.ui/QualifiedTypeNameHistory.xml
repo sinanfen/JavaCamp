@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="oopIntro.Product"/>
+    <fullyQualifiedTypeName name="oopIntro.Category"/>
+    <fullyQualifiedTypeName name="oopIntro.ProductManager"/>
+    <fullyQualifiedTypeName name="javaOdev_25_04_21.Category"/>
+    <fullyQualifiedTypeName name="javaOdev_25_04_21.Instructor"/>
+    <fullyQualifiedTypeName name="javaOdev_25_04_21.CategoryManager"/>
+    <fullyQualifiedTypeName name="javaOdev_25_04_21.instructorManager"/>
+    <fullyQualifiedTypeName name="javaOdev_25_04_21.InstructorManager"/>
+</qualifiedTypeNameHistroy>

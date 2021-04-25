@@ -1,0 +1,12 @@
+package javaOdev_25_04_21;
+
+public class instructorManager {
+
+	public void Add(Instructor instructor) {
+		System.out.println(instructor.instructorName+" "+instructor.instructorSurname+ "  Eklendi");
+	}
+	
+	public void Delete(Instructor instructor) {
+		System.out.println(instructor.instructorName+" "+instructor.instructorSurname+ " Silindi ");
+	}
+}

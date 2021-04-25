@@ -1,0 +1,10 @@
+package intro;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String gulsenSerefsizi = "Gülþenciðim sen bir gerizekalýsýn";
+		System.out.println(gulsenSerefsizi);
+	}
+
+}

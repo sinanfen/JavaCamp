@@ -1,0 +1,8 @@
+package javaOdev_25_04_21;
+
+public class CategoryManager {
+
+	public void Add(Category category) {
+		
+	}
+}

@@ -1,0 +1,10 @@
+package javaOdev_25_04_21;
+
+public class Course {
+	
+	public Course(int id, String name, String detail) {
+		this.id = id;
+		this.name = name;
+	}
+	
+}

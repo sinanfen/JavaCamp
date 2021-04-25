@@ -1,0 +1,15 @@
+package javaOdev_25_04_21;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Category category1 = new Category();
+		category1.id=1;
+		category1.categoryName="Yazilim";
+		category1.categoryEgitmen="Engin Demirog";
+		
+		Category category2 = 
+	}
+
+}
