@@ -1,0 +1,11 @@
+package javaOdev_2;
+
+public class StudentManager {
+
+	public void addStudent(Student ogrenci) {
+		 System.out.println("Öðrenci Eklendi."
+	                + "\nId: " + ogrenci.id
+	                + "\nName: " + ogrenci.firstName + " " + ogrenci.lastName
+	                + "\nStudent's Instructor: " + ogrenci.ogrInstructor.firstName + " " + ogrenci.ogrInstructor.lastName);
+	}
+}

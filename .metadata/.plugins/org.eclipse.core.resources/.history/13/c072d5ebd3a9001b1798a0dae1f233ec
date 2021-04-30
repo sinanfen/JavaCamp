@@ -1,0 +1,19 @@
+package javaOdev_2;
+
+public class InstructorManager {
+
+	public void addInstructor(Instructor egitmen) {
+		System.out.println("Eðitmen eklendi." + "\nId: "+ egitmen.id + "\nAdý Soyadý: " + egitmen.firstName + egitmen.lastName + "\nVerilen Kurs:: " +egitmen.verilenKurs);
+	}
+	
+	public void updateInstructor(Instructor egitmen) {
+		System.out.println("Eðitmen güncellendi." + "\nId: "+ egitmen.id + "\nAdý Soyadý: " + egitmen.firstName + egitmen.lastName + "\nVerilen Kurs:: " +egitmen.verilenKurs);
+	}
+	
+	public void infoInstruction(Instructor egitmen) {
+		 System.out.println("* Eðitmen Bilgisi*"
+			        +"\nName: "+egitmen.firstName+ " " +egitmen.lastName
+			        +"\nGiven Course: "+egitmen.verilenKurs.name);
+	}
+	
+}

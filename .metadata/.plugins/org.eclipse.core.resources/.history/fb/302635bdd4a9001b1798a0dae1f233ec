@@ -1,0 +1,10 @@
+package javaOdev_2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//Kurs sınıfından bir referans yaratıyoruz
+		Course kurs1 = new Course();
+	}
+
+}

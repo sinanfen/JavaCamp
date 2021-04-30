@@ -1,0 +1,25 @@
+package javaOdev_2;
+
+public class StudentManager {
+
+	public void addStudent(Student ogrenci) {
+		 System.out.println("Öðrenci Eklendi."
+	                + "\nId: " + ogrenci.id
+	                + "\nAdý Soyadý: " + ogrenci.firstName + " " + ogrenci.lastName
+	                + "\nÖðrencinin eðitmeni:" + ogrenci.ogrInstructor.firstName + " " + ogrenci.ogrInstructor.lastName);
+	}
+	
+	public void updateStudent(Student ogrenci) {
+		 System.out.println("Öðrenci Güncellendi."
+	                + "\nId: " + ogrenci.id
+	                + "\nAdý Soyadý: " + ogrenci.firstName + " " + ogrenci.lastName
+	                + "\nÖðrencinin eðitmeni:" + ogrenci.ogrInstructor.firstName + " " + ogrenci.ogrInstructor.lastName);
+	}
+	
+	public void deleteStudent(Student ogrenci) {
+		 System.out.println("Öðrenci Eklendi."
+	                + "\nId: " + ogrenci.id
+	                + "\nAdý Soyadý: " + ogrenci.firstName + " " + ogrenci.lastName
+	                + "\nÖðrencinin eðitmeni:" + ogrenci.ogrInstructor.firstName + " " + ogrenci.ogrInstructor.lastName);
+	}
+}

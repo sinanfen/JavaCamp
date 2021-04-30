@@ -1,0 +1,13 @@
+package javaOdev_2;
+
+public class CourseManager {
+
+	public void addCourse(Course kurs) {
+		System.out.println("Kurs eklendi." + "\nId: " + kurs.id + "\nName: " + kurs.name);
+		
+	}
+	
+	public void deleteCourse(Course kurs) {
+		System.out.println("Kurs kaldýrýldý." + "\nId: " + kurs.id + "\nName: " + kurs.name);
+	}
+}

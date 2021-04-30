@@ -1,0 +1,11 @@
+package inheritance;
+
+public class CustomerManager {
+	public void Add(IndividualCustomer customer) {
+		System.out.println(customer.firstName + " kaydedildi.");
+	}
+	
+public void Add(CorporateCustomer customer) {
+		
+	}
+}

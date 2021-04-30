@@ -1,0 +1,12 @@
+package javaOdev_2;
+
+public class Student {
+	int id;
+	String firstName;
+	String LastName;
+
+public Student() {
+	
+}
+
+}
