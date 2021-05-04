@@ -1,0 +1,27 @@
+package javaOdev_3;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Instructor instructor1 = new Instructor(1,"Engin","Demiroğ","C#");
+		
+		Student student1 = new Student(1, "Sinan", "Fen", "Java")
+		
+		student1.getCurrentCourseName();
+				
+		instructor.setName("Sinan");
+		instructor.setEmail("sinanfen@hotmail.com");
+		System.out.println(instructor.getEmail());
+
+		
+		UserManager userManager = new UserManager();
+		userManager.add();
+		
+		StudentManager studentManager = new StudentManager();
+		studentManager.add();
+		
+		
+		
+	}
+
+}

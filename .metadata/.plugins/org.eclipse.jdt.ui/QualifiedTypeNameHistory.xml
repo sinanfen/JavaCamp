@@ -28,4 +28,12 @@
     <fullyQualifiedTypeName name="javaOdev_2.Instructor"/>
     <fullyQualifiedTypeName name="javaOdev_2.InstructorManager"/>
     <fullyQualifiedTypeName name="javaOdev_2.StudentManager"/>
+    <fullyQualifiedTypeName name="interfaces.Customer"/>
+    <fullyQualifiedTypeName name="interfaces.Logger"/>
+    <fullyQualifiedTypeName name="interfaces.CustomerManager"/>
+    <fullyQualifiedTypeName name="javaOdev_3.Instructor"/>
+    <fullyQualifiedTypeName name="javaOdev_3.UserManager"/>
+    <fullyQualifiedTypeName name="javaOdev_3.Student"/>
+    <fullyQualifiedTypeName name="javaOdev_3.InstructorManager"/>
+    <fullyQualifiedTypeName name="javaOdev_3.StudentManager"/>
 </qualifiedTypeNameHistroy>

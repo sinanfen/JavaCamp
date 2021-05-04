@@ -1,0 +1,9 @@
+package javaOdev_3;
+
+public class InstructorManager extends UserManager {
+
+	public void createdCourse(Instructor instructor) {
+		System.out.println("Eðitmen: "+instructor.getFirstName()+" "+instructor.getLastName()+" "+instructor.getCreatedCourses()+" oluþturdu.");
+	}
+	
+}

@@ -1,0 +1,8 @@
+package javaOdev_3;
+
+public class Student extends Person {
+	private String course;
+	private float attendanceStatus;
+	private String name;
+	private String surname;
+}

@@ -6,7 +6,7 @@ public class Main {
 		//Kurs sınıfından bir referans yaratıyoruz
 		Course kurs1 = new Course(1,"Java");
 
-		Course kurs2 = new Course(1,"C#");
+		Course kurs2 = new Course(2,"C#");
 		
 		//Eğitmen sınıfından bir referans yaratıyoruz
 		Instructor egitmen1 = new Instructor(1,"Engin","Demiroğ",kurs1);

@@ -1,0 +1,8 @@
+package javaOdev_3;
+
+public class Instructor extends Person {
+	private String profession;
+	private String experience;
+	private String name;
+	private String surname;
+}

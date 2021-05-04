@@ -1,0 +1,31 @@
+package javaOdev_3;
+
+public class Person {
+	private int id;
+	private String nameSurname;
+	private String email;
+	private String kod;
+	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getNameSurname() {
+		return nameSurname;
+	}
+	public void setNameSurname(String nameSurname) {
+		this.nameSurname = nameSurname;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getKod() {
+		return this.email.substring(0, 2) + id;
+	}
+}

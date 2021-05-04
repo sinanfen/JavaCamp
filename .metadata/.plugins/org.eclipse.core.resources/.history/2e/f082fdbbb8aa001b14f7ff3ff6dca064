@@ -1,0 +1,14 @@
+package interfaces;
+
+public class Main {
+
+    public static void main(String[] args) {
+        CustomerManager customerManager = new CustomerManager(new SmsLogger());
+
+        Customer mert = new Customer(1,"Mert","Celil");
+
+        customerManager.add(mert);
+
+    }
+
+}
