@@ -1,0 +1,10 @@
+package GameCreator;
+
+public class GameAdd implements gameCreator{
+	
+	@Override
+	public void creat(String message) {
+		System.out.println( message + " Sisteme eklendi");
+		
+	}
+}

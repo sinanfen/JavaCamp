@@ -1,0 +1,7 @@
+package Game;
+
+public interface GameSales {
+	public void Sales(Player player, Game game) {
+		
+	}
+}

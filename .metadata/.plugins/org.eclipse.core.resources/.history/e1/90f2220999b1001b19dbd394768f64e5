@@ -1,0 +1,9 @@
+package CampaignCreator;
+
+public class campaignManager {
+	private campaignCreator campaignCreator;
+	
+	public campaignManager(campaignCreator campaignCreator) {
+		
+	}
+}

@@ -1,0 +1,11 @@
+package CampaignCreator;
+
+public class campaignAdd implements campaignCreator {
+
+	@Override
+	public void creatCampaign(String message) {
+		System.out.println("Kampanya Eklendi " + message);
+		
+	}
+
+}

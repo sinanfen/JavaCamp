@@ -1,0 +1,27 @@
+package CampaignCreator;
+
+import GameCreator.Game;
+
+public class campaignManager {
+	private CampaignCreator campaignCreator;
+	
+	public campaignManager(CampaignCreator campaignCreator) {
+		super();
+		this.campaignCreator = campaignCreator;
+	}
+	
+	public void AddCampaign(Game game) {
+
+		this.campaignCreator.createCampaign(game.getGameName());
+	}
+	
+	public void DeleteCampaign(Game game) {
+
+		this.campaignCreator.createCampaign(game.getGameName());
+	}
+	
+	public void UpdateCampaign(Game game) {
+		System.out.println("Kampanya Güncellendi " + game.getGameName());
+		this.campaignCreator.createCampaign(game.getGameName());
+	}
+}

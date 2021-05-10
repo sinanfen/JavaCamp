@@ -1,0 +1,14 @@
+package Abstract;
+
+import Entities.Player;
+
+public class BasePlayerManager implements PlayerService {
+
+	@Override
+	public void viewCatalog(Player player) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}

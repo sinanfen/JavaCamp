@@ -1,0 +1,8 @@
+package Concrete;
+
+import Abstract.BasePlayerManager;
+
+public class PlayerManager extends BasePlayerManager {
+
+	PlayerCheckService playerCheckService;
+}

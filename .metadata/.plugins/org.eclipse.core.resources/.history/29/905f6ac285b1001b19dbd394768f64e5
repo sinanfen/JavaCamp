@@ -1,0 +1,24 @@
+package Entities;
+
+import Abstract.Entity;
+
+public class Customer implements Entity {
+	public Customer() {
+		
+	}
+	
+	public Customer(int id, String firstName, String lastName, int dateOfBirth, String nationalityId) {
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.dateOfBirth = dateOfBirth;
+		NationalityId = nationalityId;
+	}
+	
+	private int id;
+	private String firstName;
+	private String lastName;
+	private int dateOfBirth;
+	private String NationalityId;
+
+}

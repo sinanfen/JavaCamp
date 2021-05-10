@@ -1,0 +1,27 @@
+package GameCreator;
+
+public class GameManager {
+	
+	private GameCreator gamecreator;
+	
+	public GameManager(gameCreator gamecreator) {
+		this.gamecreator = gamecreator;
+	}
+	
+	
+	public void Add(Game game) {
+		this.gamecreator.creat(game.getGameName());
+	}
+	
+	public void Delete(Game game) {
+		this.gamecreator.creat(game.getGameName());
+	}
+	
+	//bulkinsert
+	public void addMultiple(Game[] games) {
+		for(Game game: games) {
+			Add(game);
+		}
+	}
+	
+}

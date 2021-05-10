@@ -1,0 +1,9 @@
+package Game;
+
+import Entities.Player;
+
+public interface GameSales {
+	public void sales(Player player, Game game) {
+		
+	}
+}

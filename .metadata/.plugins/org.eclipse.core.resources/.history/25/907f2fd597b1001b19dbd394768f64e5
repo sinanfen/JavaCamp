@@ -1,0 +1,25 @@
+package Concrete;
+
+import Abstract.BasePlayerManager;
+import Abstract.PlayerCheckService;
+
+public class PlayerManager extends BasePlayerManager {
+
+	PlayerCheckService playerCheckService;
+	
+	public PlayerManager(PlayerCheckService playerCheckService) {
+		this.playerCheckService = playerCheckService;
+	}
+	
+	@Override
+	public void viewCatalog(Player player) {
+		
+		if(this.PlayerCheckService.CheckIfRealPerson(player)) {
+			super.viewCatalog(player);
+		}else {
+			System.out.println("Kayitli Degilsiniz.");
+		}
+		
+	}
+	
+}

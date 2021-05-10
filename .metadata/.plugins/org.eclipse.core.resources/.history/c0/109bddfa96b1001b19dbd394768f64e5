@@ -1,0 +1,28 @@
+package Entities;
+
+import java.time.LocalDate;
+import java.util.Date;
+import Abstract.Entity;
+
+public class Player {
+	private int id;
+	private String firstName;
+	private String lastName;
+	private String identityNumber;
+	private LocalDate dateOfBirth;
+	
+	public Player() {
+		
+	}
+
+	public Player(int id, String firstName, String lastName, String identityNumber, LocalDate dateOfBirth) {
+		super();
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.identityNumber = identityNumber;
+		this.dateOfBirth = dateOfBirth;
+	}
+	
+
+}

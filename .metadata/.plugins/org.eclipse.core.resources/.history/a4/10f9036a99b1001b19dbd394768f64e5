@@ -1,0 +1,8 @@
+package GameCreator;
+
+public class Game {
+	private String gameName;
+	private String gameDeveloper;
+	private int fiyat;
+	private int indirim;
+}

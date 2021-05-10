@@ -1,0 +1,11 @@
+package CampaignCreator;
+
+public class campaignUpdate implements campaignCreator {
+
+	@Override
+	public void createCampaign(String message) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+import GameCreator.Game;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Game game1 = new Game("Counter Strike Global Offensive", "Valve",65,5);
+		Game game2 = new Game("Knight Online","NTT Games",65,6);
+		Game game3 = new Game("Rocket League", "EpicGames", 5, 0);
+	}
+
+}

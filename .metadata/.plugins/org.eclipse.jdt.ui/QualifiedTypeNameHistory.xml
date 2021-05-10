@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="oopIntro.Product"/>
-    <fullyQualifiedTypeName name="oopIntro.ProductManager"/>
-    <fullyQualifiedTypeName name="javaOdev_25_04_21.Category"/>
-    <fullyQualifiedTypeName name="javaOdev_25_04_21.Instructor"/>
-    <fullyQualifiedTypeName name="javaOdev_25_04_21.CategoryManager"/>
-    <fullyQualifiedTypeName name="javaOdev_25_04_21.instructorManager"/>
     <fullyQualifiedTypeName name="javaOdev_25_04_21.InstructorManager"/>
     <fullyQualifiedTypeName name="oopIntro.Category"/>
     <fullyQualifiedTypeName name="inheritance.Customer"/>
@@ -17,7 +10,6 @@
     <fullyQualifiedTypeName name="inheritance.CustomerManager"/>
     <fullyQualifiedTypeName name="inheritance2.LogManager"/>
     <fullyQualifiedTypeName name="inheritance2.Logger"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="inheritance2.DatabaseLogger"/>
     <fullyQualifiedTypeName name="inheritance2.CustomerManager"/>
     <fullyQualifiedTypeName name="inheritance2.FileLogger"/>
@@ -36,4 +28,36 @@
     <fullyQualifiedTypeName name="javaOdev_3.Student"/>
     <fullyQualifiedTypeName name="javaOdev_3.InstructorManager"/>
     <fullyQualifiedTypeName name="javaOdev_3.StudentManager"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.entities.abstracts.Entity"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.business.abstracts.ProductService"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.business.concretes.ProductManager"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.concretes.HibernateProductDao"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.entities.concretes.Product"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.abstracts.ProductDao"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.dataAccess.concretes.AbcProductDao"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.core.LoggerService"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.jLogger.JLoggerManager"/>
+    <fullyQualifiedTypeName name="nLayeredDemo.core.JLoggerManagerAdapter"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="com.sun.tools.javac.util.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="kodlamaio.northwind.business.abstracts.ProductService"/>
+    <fullyQualifiedTypeName name="Abstract.Entity"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="Abstract.CustomerService"/>
+    <fullyQualifiedTypeName name="Abstract.BaseCustomerManager"/>
+    <fullyQualifiedTypeName name="Entities.Customer"/>
+    <fullyQualifiedTypeName name="Abstract.CustomerCheckService"/>
+    <fullyQualifiedTypeName name="Abstract.PlayerCheckService"/>
+    <fullyQualifiedTypeName name="GameCreator.Game"/>
+    <fullyQualifiedTypeName name="GameCreator.GameManager"/>
+    <fullyQualifiedTypeName name="Entities.Player"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="Adapters.MernisServiceAdapter"/>
+    <fullyQualifiedTypeName name="Concrete.PlayerManager"/>
+    <fullyQualifiedTypeName name="Abstract.BasePlayerManager"/>
+    <fullyQualifiedTypeName name="CampaignCreator.campaignManager"/>
+    <fullyQualifiedTypeName name="GameCreator.GameAdd"/>
+    <fullyQualifiedTypeName name="CampaignCreator.CampaignManager"/>
+    <fullyQualifiedTypeName name="CampaignCreator.CampaignAdd"/>
 </qualifiedTypeNameHistroy>

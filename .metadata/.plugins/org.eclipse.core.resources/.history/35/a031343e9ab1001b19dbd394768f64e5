@@ -1,0 +1,11 @@
+package GameCreator;
+
+public class GameDelete implements GameCreator {
+
+	@Override
+	public void Create(String message) {
+	System.out.println("Kaldýrýldý." + message);
+		
+	}
+
+}

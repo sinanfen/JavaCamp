@@ -1,0 +1,41 @@
+import java.time.LocalDate;
+
+import Abstract.BasePlayerManager;
+import Adapters.MernisServiceAdapter;
+import Concrete.PlayerManager;
+import Entities.Player;
+import GameCreator.Game;
+import GameCreator.GameManager;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Game game1 = new Game("Counter Strike Global Offensive", "Valve",65,5);
+		Game game2 = new Game("Knight Online","NTT Games",65,6);
+		Game game3 = new Game("Rocket League", "EpicGames", 5, 0);
+		
+		GameManager gameManager = new GameManager(new GameAdd());
+		gameManager.Add(game1);
+		gameManager.Add(game2);
+		gameManager.Add(game2);
+		
+		System.out.println("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
+		
+		Player playerYeni = new Player();
+		playerYeni.setId(1);
+		playerYeni.setFirstName("Sinan");
+		playerYeni.setLastName("Fen");
+		playerYeni.setIdentityNumber("111111111111");
+		playerYeni.setDateOfBirth((LocalDate.of(2000, 8, 17)));
+		
+		BasePlayerManager basePlayerManager = new PlayerManager( new MernisServiceAdapter());
+		basePlayerManager.viewCatalog(playerYeni);
+		
+		System.out.println("-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
+		Game[] games = {game1,game2,game3};
+		gameManager.addMultiple(games);
+		
+	}
+
+}

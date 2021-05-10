@@ -1,0 +1,6 @@
+  
+package GameCreator;
+
+public interface GameCreator {
+	public void creat(String message);
+}
